@@ -1,0 +1,161 @@
+/* Aplica estilos al cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos y subtítulos */
+h1 {
+    margin-top: 60px;
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+    color: #000000;
+    font-size: 18px;
+}
+
+/*Estilos para el login*/
+/* Estilos para el formulario de inicio de sesión */
+/* Estilos para el formulario de inicio de sesión en login.html */
+.login-form {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 60px 30px;
+    padding-top:30px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 420px;
+    margin-top: 100px;
+
+}
+
+.login-form h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px 0;
+    color: #000000;
+    text-align: left;
+    margin-top:10px;
+ 
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+    width: 96%;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+}
+
+/* Estilos para los botones */
+input[type="file"] {
+
+    width: 40%;
+    border: 1px solid #0c0c0c;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #0c0c0c;
+    background-color: #f8f8f8;
+   
+}
+button[type="button"] {
+    background-color:green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color:green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type="button"]{
+    background-color:rgb(235, 1, 1);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(0, 192, 0);
+}
+input[type="button"]:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #3b1616;
+    padding: 10px;
+}
+
+th {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+#file-details {
+    display: none;
+}

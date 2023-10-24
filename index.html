@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cargar Archivo</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Cargar Archivo</h1>
+    <p>Selecciona el archivo que deseas subir:</p>
+    <form>
+        <input id="file-upload" type="file" name="archivo" required>
+        <br><br>
+        <button id="submit-button" type="button">Subir</button>
+        <input type="button" value="Cancelar" onclick="window.location.href='inicio.html'">
+    </form>
+    <h2>Lista de archivos</h2>
+    <button id="update-button" type="button">Consultar archivos</button>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Link</th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
